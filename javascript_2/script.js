@@ -16,13 +16,29 @@ var gols = 10;
 var frase2 = `romario fez ${gols *2} gols`;
 console.log(frase2);
 
-//declarar variavel com o seu nome
+//declare uma variavel contendo uma string 
 
-var nome = 'Camila';
-console.log(nome);
+var string = "uma string";
+//declare uma variavel contendo um numero dentro de uma string
 
-//declarar variavel com o sua idade
+var frase = '30';
+
+//declare uma variavel com a sua idade
 
 var idade = 30;
-console.log(idade);
+//declare duas variaveis, uma com seu nome e outra com seu sobrenome e some as mesmas
+
+var nome = "Camila";
+var sobrenome = "Rocha";
+//coloque as seguintes frase em uma variável: It's time
+
+var frase2= "It's time";
+//verifique o tipo de variável que contém seu nome
+
+console.log(string, frase, idade, typeof(nome), frase2);
+
+var teste = `${nome} ${sobrenome}`; //conta os espaços entre os $
+
+console.log(teste);
+
 
