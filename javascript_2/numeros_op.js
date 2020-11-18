@@ -10,15 +10,14 @@ console.log(multi);
 var mod = 10 % 2;
 console.log(mod);
 
-
-console.log('========');
+console.log("========");
 //qual o resultado da seguinte expressao
-var total = 10 + 5 * 2/ 2 + 20;
+var total = 10 + (5 * 2) / 2 + 20;
 console.log(total);
 
 //crie duas expressoes que retornem NaN
-var peso = 70 + 'kg';
-var altura = 1.71 + 'm';
+var peso = 70 + "kg";
+var altura = 1.71 + "m";
 console.log(isNaN(peso));
 console.log(isNaN(altura));
 
@@ -31,8 +30,8 @@ var x = 5;
 console.log(++x);
 
 //como dividir o peso por 2?
-var numero = '80' / 2;
-var unidade = 'kg';
+var numero = "80" / 2;
+var unidade = "kg";
 var peso = numero + unidade; //80kg
 //var pesoPorDois = peso / 2; // 80kg/2
 console.log(peso); //NaN
