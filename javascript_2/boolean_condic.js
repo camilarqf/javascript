@@ -26,3 +26,30 @@ if(!!possuiDoutorado){ //verifica se é verdadeiro
 var teste = 'Gato';
 
 console.log(teste === 'gato'); // '===' verifica estritamente
+
+var cor = "Preto";
+
+switch (cor){
+    case 'azul':
+        console.log('azul');
+        break;
+    case 'verde':
+        console.log('verde');
+        break;
+    case 'preto':
+        console.log('preto');
+        break;
+    default:
+        console.log('nenhum');
+}
+
+var minhaIdade = 30;
+var idade = 50;
+
+if(minhaIdade > idade){
+    console.log('é maior');
+}else if (minhaIdade === idade){
+    console.log(' é igual');
+}else if (minhaIdade < idade){
+    console.log ('é menor');
+}
